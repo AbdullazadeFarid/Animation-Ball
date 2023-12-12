@@ -1,0 +1,42 @@
+.section {
+  width: 32%;
+  height: 118px;
+  background-color: blue;
+  position: absolute;
+  top: 50%;
+
+  .ball {
+    width: 21%;
+    height: 100%;
+    background-color: beige;
+    border-radius: 52%;
+    position: absolute;
+    transition: 3s ease-in-out;
+    cursor: pointer;
+    left: 0;
+  }
+  .leftbtn {
+    margin-top: 21%;
+    margin-left: 5%;
+    padding: 14px 36px;
+    cursor: pointer;
+    border-radius: 23px;
+
+    border: none;
+    background-color: black;
+    color: #fff;
+  }
+
+  .rightbtn {
+    margin-top: 21%;
+    margin-left: 14%;
+    padding: 14px 36px;
+    cursor: pointer;
+    border-radius: 23px;
+
+
+    border: none;
+    background-color: black;
+    color: #fff;
+  }
+}
